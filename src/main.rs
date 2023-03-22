@@ -2,7 +2,7 @@ use actix_web::{get, web, App, HttpServer, Responder};
 use rand::Rng;
 use serde_derive::{Deserialize, Serialize};
 
-const API_KEY: &str = "c8cd889ce6c02d80a1a4542a28287c67";
+const API_KEY: &str = ""; // replace with valid openweather API KEY
 
 const PHRASES: [&str; 5] = [
     "Fall seven times, stand up eight.",
